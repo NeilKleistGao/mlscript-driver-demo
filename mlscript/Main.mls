@@ -1,0 +1,9 @@
+import "../ts/Reader.ts"
+import "./Game.mls"
+import "./MyProgram.mls"
+
+let id = Reader.read("Select an entry: 1 -> guess number, 2 -> mixin demo, otherwise -> exit")
+if parseInt(id, undefined) is
+  1 then Game.Game().play(3)
+  2 then MyProgram.show
+  _ then ()

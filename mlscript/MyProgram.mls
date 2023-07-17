@@ -1,0 +1,15 @@
+import "./AST.mls"
+
+class Neg<A>(expr: A)
+
+mixin EvalNeg {
+  fun eval(e) =
+    if e is Neg(d) then 0 - this.eval(d)
+    else super.eval(e)
+}
+
+module MyLang extends AST.EvalBase, EvalNeg
+
+export fun show =
+  let program = AST.Add(AST.Lit(48), Neg(AST.Lit(6)))
+  console.log(MyLang.eval(program))

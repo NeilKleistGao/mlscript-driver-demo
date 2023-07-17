@@ -1,0 +1,14 @@
+{
+  "module": "es2015",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc main.ts --esModuleInterop --module es2015 --moduleResolution node && node main.js"
+  },
+  "devDependencies": {
+    "mlscript-driver": "^0.0.2",
+    "@types/node": "^20.4.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
