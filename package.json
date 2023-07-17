@@ -5,7 +5,7 @@
     "watch": "tsc main.ts --esModuleInterop --module es2015 --moduleResolution node && node main.js"
   },
   "devDependencies": {
-    "mlscript-driver": "^0.0.2",
+    "mlscript-driver": "^0.0.3",
     "@types/node": "^20.4.2"
   },
   "dependencies": {
