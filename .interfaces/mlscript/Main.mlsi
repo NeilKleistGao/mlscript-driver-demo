@@ -1,0 +1,10 @@
+import "../ts/Reader.mlsi"
+import "./Game.mlsi"
+import "./MyProgram.mlsi"
+export declare module Main() {
+  let id: Str
+  error | undefined | unit
+}
+//| ╔══[ERROR] Type `Game` does not contain member `Game`
+//| ║  l.7: 	  1 then Game.Game().play(3)
+//| ╙──     	             ^^^^^

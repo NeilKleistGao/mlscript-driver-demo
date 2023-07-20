@@ -2,7 +2,7 @@
   "module": "es2015",
   "type": "module",
   "scripts": {
-    "watch": "tsc main.ts --esModuleInterop --module es2015 --moduleResolution node && node main.js"
+    "watch": "tsc && tsc main.ts --esModuleInterop --module es2015 --moduleResolution node && node main.js"
   },
   "devDependencies": {
     "mlscript": "^0.0.1-beta.3",
