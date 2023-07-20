@@ -1,3 +1,3 @@
-import driver from "mlscript-driver"
+import mlscript from "mlscript"
 
-driver.watch("./mlscript/Main.mls", "./", "./js/", "./tsconfig.json", false, true)
+mlscript.watch("./mlscript/Main.mls", "./", "./js/", "./tsconfig.json", false, true)

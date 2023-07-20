@@ -11,3 +11,13 @@ To watch the project, execute:
 ```shell
 npm run watch
 ```
+
+You need to compile TypeScript manually:
+```shell
+tsc
+```
+
+To execute the final program, run:
+```
+node js/mlscript/Main.js
+```
