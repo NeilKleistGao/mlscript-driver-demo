@@ -6,4 +6,4 @@ let id = Reader.read("Select an entry: 1 -> guess number, 2 -> mixin demo, other
 if parseInt(id, undefined) is
   1 then Game.Game().play(3)
   2 then MyProgram.show
-  _ then ()
+  _ then ;
